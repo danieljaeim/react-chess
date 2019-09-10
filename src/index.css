@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button.one {
+  background-color: greenyellow;
+  
+} 
+
+button.two {
+  background-color: burlywood;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  font-size: 25px;
+  text-align: center;
+  background-position: center;
+  background-size: 150%;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-board {
+  width: 800px;
+  height: 800px;
+}
